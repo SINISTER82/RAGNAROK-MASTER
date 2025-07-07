@@ -1,0 +1,14 @@
+[
+    {
+        "id": "admin01",
+        "nombre": "Administrador",
+        "rol": "admin",
+        "email": "admin@sinister.com"
+    },
+    {
+        "id": "vendedor01",
+        "nombre": "Daniel Castro",
+        "rol": "vendedor",
+        "email": "dcastro040782@gmail.com"
+    }
+]

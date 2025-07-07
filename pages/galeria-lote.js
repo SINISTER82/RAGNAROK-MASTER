@@ -1,0 +1,1 @@
+// Galería visual por lote

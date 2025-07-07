@@ -1,0 +1,1 @@
+export default function Lotes() { return <h1>Gestión de lotes</h1> }

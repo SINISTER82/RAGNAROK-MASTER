@@ -1,0 +1,1 @@
+// Módulo de producción con ABV, fórmula base y estado del lote

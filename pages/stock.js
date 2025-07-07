@@ -1,0 +1,1 @@
+// Módulo de stock con movimientos e historial
