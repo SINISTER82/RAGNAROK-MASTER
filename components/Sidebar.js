@@ -1,6 +1,12 @@
 export default function Sidebar() {
   return (
-    <aside style={{ width: '200px', backgroundColor: '#1e1e1e', height: '100vh', padding: '20px', color: 'white' }}>
+    <aside style={{
+        width: '200px',
+        backgroundColor: '#1e1e1e',
+        height: '100vh',
+        padding: '20px',
+        color: 'white'
+      }}>
       <h2>SINISTER</h2>
       <nav>
         <a href="/">Inicio</a>
