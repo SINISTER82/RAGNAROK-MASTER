@@ -1,0 +1,12 @@
+[
+  {
+    "sku": "MP-0001",
+    "nombre": "MIEL",
+    "tipo": "MATERIA PRIMA",
+    "cantidad": 300,
+    "unidad": "kg",
+    "precioUnitario": 1833.33,
+    "margen": 50,
+    "precioSugerido": 2750.00
+  }
+]

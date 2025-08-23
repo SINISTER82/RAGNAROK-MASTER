@@ -1,13 +1,23 @@
 [
-    {
-        "id": "29635327",
-        "nombre": "Daniel Castro",
-        "email": "dcastro040782@gmail.com",
-        "cuit": "20-29635327-0",
-        "razon_social": "Castro Distribuciones",
-        "tipo": "Mayorista",
-        "saldo": 0.0,
-        "direccion": "A completar",
-        "telefono": "A completar"
-    }
+  {
+    "id": "29635327",
+    "nombre": "Daniel",
+    "apellido": "Castro",
+    "email": "dcastro040782@gmail.com",
+    "canal": "Mayorista"
+  },
+  {
+    "id": "20345678901",
+    "nombre": "Lucía",
+    "apellido": "Gómez",
+    "email": "lucia.gomez@example.com",
+    "canal": "Minorista"
+  },
+  {
+    "id": "27234567890",
+    "nombre": "Carlos",
+    "apellido": "Pérez",
+    "email": "carlos.perez@example.com",
+    "canal": "Distribuidor"
+  }
 ]

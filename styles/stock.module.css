@@ -1,0 +1,48 @@
+
+.container {
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.formulario input,
+.formulario select,
+.formulario button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.boton {
+  background-color: #FFD700;
+  border: none;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 6px;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+.imagenMiniatura {
+  border-radius: 4px;
+  width: 40px;
+  height: auto;
+}

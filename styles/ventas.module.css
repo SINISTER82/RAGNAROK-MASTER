@@ -1,0 +1,130 @@
+
+.contenedorVentas {
+  margin-left: 220px;
+  padding: 20px;
+  max-width: 90%;
+  color: white;
+}
+
+.tablaVentas table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.tablaVentas th,
+.tablaVentas td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: left;
+}
+
+.tablaVentas th {
+  background-color: #222;
+}
+
+.tablaVentas td {
+  background-color: #111;
+}
+
+.tablaVentas td:last-child,
+.tablaVentas th:last-child {
+  text-align: right;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  color: white;
+}
+
+.input {
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid #555;
+  width: 180px;
+  background-color: #000;
+  color: white;
+}
+
+.boton {
+  background-color: #facc15;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #eab308;
+}
+
+.formularioVentas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.botonesVenta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.previewCliente {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  max-width: 600px;
+}
+.previewCliente p {
+  margin: 0.3rem 0;
+  color: #eee;
+}
+.tablaHistorial {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.tablaHistorial th,
+.tablaHistorial td {
+  border: 1px solid #444;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.tablaHistorial th {
+  background-color: #222;
+}
+
+.tablaHistorial td {
+  background-color: #111;
+}
+
+.botonTabla {
+  background-color: #facc15;
+  color: black;
+  border: none;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botonTabla:hover {
+  background-color: #eab308;
+}

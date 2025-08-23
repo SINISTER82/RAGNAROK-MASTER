@@ -1,0 +1,62 @@
+
+.sidebar {
+  width: 140px;
+  min-height: 100vh;
+  background-color: #0d0d0d;
+  padding: 16px;
+  box-shadow: 3px 0 8px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #fff, #aaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 8px;
+  font-size: 12.5px;
+  margin: 4px 0;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button:hover {
+  background-color: #222;
+  text-shadow: 0 0 3px #fff;
+}
+
+/* Colores por botón */
+.buttonStock         { color: #cccccc; border-color: #cccccc; }
+.buttonFormulas      { color: #00bfff; border-color: #00bfff; }
+.buttonEmbotellado   { color: #50fa7b; border-color: #50fa7b; }
+.buttonClientes      { color: #8be9fd; border-color: #8be9fd; }
+.buttonVentas        { color: #f1c40f; border-color: #f1c40f; }
+.buttonCashflow      { color: #e67e22; border-color: #e67e22; }
+.buttonControlCalidad{ color: #2ecc71; border-color: #2ecc71; }

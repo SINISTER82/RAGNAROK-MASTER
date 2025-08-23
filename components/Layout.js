@@ -1,7 +1,24 @@
+import { useRouter } from "next/router";
+import Sidebar from "./Sidebar";
+import { getUser, logout } from "../auth";
+import styles from "../styles/layout.module.css";
 
-import React from "react";
-import SidebarLayout from "./SidebarLayout";
+const Layout = ({ children }) => {
+  const router = useRouter();
+  const user = getUser();
 
-export default function Layout({ children }) {
-  return <SidebarLayout>{children}</SidebarLayout>;
-}
+  const handleLogout = () => {
+    localStorage.removeItem("usuario");
+    logout();
+    router.push("/");
+  };
+
+  return (
+    <div className={styles.container}>
+      <Sidebar onLogout={handleLogout} />
+      <main className={styles.main}>{children}</main>
+    </div>
+  );
+};
+
+export default Layout;

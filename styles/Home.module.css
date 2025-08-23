@@ -1,0 +1,12 @@
+
+.formElement {
+    margin-bottom: 1rem;
+}
+
+.formElement input,
+.formElement select,
+.formElement textarea,
+.formElement button {
+    margin: 5px;
+    padding: 8px;
+}

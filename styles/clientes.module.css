@@ -1,0 +1,36 @@
+.container {
+  margin-left: 220px; /* dejar espacio para el sidebar */
+  padding: 1rem;
+  color: white;
+  min-height: 100vh;
+}
+
+.gridForm {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.scrollHorizontal {
+  overflow-x: auto;
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.table {
+  width: 100%;
+  font-size: 0.85rem;
+  color: white;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  color: gold;
+}

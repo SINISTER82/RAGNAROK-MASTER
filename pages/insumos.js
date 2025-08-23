@@ -1,1 +1,0 @@
-// Gestión de insumos (crear, editar, eliminar)

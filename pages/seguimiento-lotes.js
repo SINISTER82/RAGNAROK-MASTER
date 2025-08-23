@@ -1,1 +1,0 @@
-// Seguimiento de lotes fermentativos
